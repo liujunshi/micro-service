@@ -2,6 +2,9 @@
 # Log file
 *.log
 
+#build file
+consignment-service/consignment-service
+
 # Package Files #
 *.tar.gz
 
@@ -18,20 +21,8 @@ hs_err_pid*
 .idea/dictionaries
 
 # Sensitive or high-churn files:
-.idea/**/dataSources/
-.idea/**/dataSources.ids
-.idea/**/dataSources.xml
-.idea/**/dataSources.local.xml
-.idea/**/sqlDataSources.xml
-.idea/**/dynamic.xml
-.idea/**/uiDesigner.xml
+.idea/*
 .verndor/
-# Gradle:
-.idea/**/gradle.xml
-.idea/**/libraries
-
-# Mongo Explorer plugin:
-.idea/**/mongoSettings.xml
 
 ## File-based project format:
 *.iws
